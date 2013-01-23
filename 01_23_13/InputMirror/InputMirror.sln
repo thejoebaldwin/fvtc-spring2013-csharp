@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputMirror", "InputMirror\InputMirror.csproj", "{87E83163-CE7B-4645-A5E7-D5B73199B39A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87E83163-CE7B-4645-A5E7-D5B73199B39A}.Debug|x86.ActiveCfg = Debug|x86
+		{87E83163-CE7B-4645-A5E7-D5B73199B39A}.Debug|x86.Build.0 = Debug|x86
+		{87E83163-CE7B-4645-A5E7-D5B73199B39A}.Release|x86.ActiveCfg = Release|x86
+		{87E83163-CE7B-4645-A5E7-D5B73199B39A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
