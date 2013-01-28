@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exer1Baldwin", "TestPractical1\Exer1Baldwin.csproj", "{C0C3A359-6DFC-4B44-8A2F-C43890D30A84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0C3A359-6DFC-4B44-8A2F-C43890D30A84}.Debug|x86.ActiveCfg = Debug|x86
+		{C0C3A359-6DFC-4B44-8A2F-C43890D30A84}.Debug|x86.Build.0 = Debug|x86
+		{C0C3A359-6DFC-4B44-8A2F-C43890D30A84}.Release|x86.ActiveCfg = Release|x86
+		{C0C3A359-6DFC-4B44-8A2F-C43890D30A84}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
