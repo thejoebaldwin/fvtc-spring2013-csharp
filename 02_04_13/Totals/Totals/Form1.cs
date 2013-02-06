@@ -48,7 +48,7 @@ namespace Totals
             //2.get the user input
             intValue = Convert.ToInt32(txtValue.Text);
             //3.calculate
-            intTotal = intValue / 2;
+            intTotal = intValue * 2;
             //4.output to the user
             lblMessage.Text = intTotal.ToString();
         }
@@ -65,6 +65,20 @@ namespace Totals
             dblTotal = dblValue / 2;
             //4.output to the user
             lblMessage.Text = dblTotal.ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //psuedocode:
+            //1.declare variables
+            double dblValue;
+            int intTotal;
+            //2.get the user input
+            dblValue = Convert.ToDouble(txtValue.Text);
+            //3.calculate
+            intTotal = (int) dblValue / 2;
+            //4.output to the user
+            lblMessage.Text = intTotal.ToString();
         }
 
 

@@ -33,6 +33,7 @@
             this.txtValue = new System.Windows.Forms.TextBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSubmit
@@ -62,7 +63,7 @@
             this.txtValue.Location = new System.Drawing.Point(126, 53);
             this.txtValue.Name = "txtValue";
             this.txtValue.Size = new System.Drawing.Size(203, 29);
-            this.txtValue.TabIndex = 0;
+            this.txtValue.TabIndex = 1;
             this.txtValue.Text = "22";
             this.txtValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtValue.TextChanged += new System.EventHandler(this.txtValue_TextChanged);
@@ -90,6 +91,17 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(356, 154);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(100, 50);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Int Divide";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AcceptButton = this.btnSubmit;
@@ -97,6 +109,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(545, 262);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.txtValue);
@@ -117,6 +130,7 @@
         private System.Windows.Forms.TextBox txtValue;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

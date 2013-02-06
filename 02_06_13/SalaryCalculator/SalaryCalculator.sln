@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculator", "SalaryCalculator\SalaryCalculator.csproj", "{388ABA1F-FA27-44EE-A871-6C62B36FEAFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{388ABA1F-FA27-44EE-A871-6C62B36FEAFC}.Debug|x86.ActiveCfg = Debug|x86
+		{388ABA1F-FA27-44EE-A871-6C62B36FEAFC}.Debug|x86.Build.0 = Debug|x86
+		{388ABA1F-FA27-44EE-A871-6C62B36FEAFC}.Release|x86.ActiveCfg = Release|x86
+		{388ABA1F-FA27-44EE-A871-6C62B36FEAFC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
