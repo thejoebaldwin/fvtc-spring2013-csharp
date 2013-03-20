@@ -67,17 +67,20 @@ namespace IceCreamShoppe
             if (rbChocolate2.Checked)
             {
                 strMessage = strMessage + " and Chocolate";
-                //this.pbxFlavor.Image = global::IceCreamShoppe.Properties.Resources.chocolate;
+                pbxFlavor2.Visible = true;
+                this.pbxFlavor2.Image = global::IceCreamShoppe.Properties.Resources.chocolate;
             }
             else if (rbVanilla2.Checked)
             {
                 strMessage = strMessage + " and Vanilla";
-                //this.pbxFlavor.Image = global::IceCreamShoppe.Properties.Resources.vanilla;
+                pbxFlavor2.Visible = true;
+                this.pbxFlavor2.Image = global::IceCreamShoppe.Properties.Resources.vanilla;
             }
             else if (rbStrawberry2.Checked)
             {
                 strMessage = strMessage + " and Strawberry";
-                //this.pbxFlavor.Image = global::IceCreamShoppe.Properties.Resources.strawberry;
+                pbxFlavor2.Visible = true;
+                this.pbxFlavor2.Image = global::IceCreamShoppe.Properties.Resources.strawberry;
             }
 
             lblFlavor.Text = strMessage;
@@ -119,6 +122,11 @@ namespace IceCreamShoppe
       private void rbStrawberry2_CheckedChanged(object sender, EventArgs e)
       {
           UpdateFlavor();
+      }
+
+      private void panel1_Paint(object sender, PaintEventArgs e)
+      {
+
       }
     }
 }

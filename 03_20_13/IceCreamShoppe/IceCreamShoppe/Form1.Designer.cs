@@ -31,7 +31,6 @@
             this.rbChocolate = new System.Windows.Forms.RadioButton();
             this.rbVanilla = new System.Windows.Forms.RadioButton();
             this.lblFlavor = new System.Windows.Forms.Label();
-            this.btnSubmit = new System.Windows.Forms.Button();
             this.rbStrawberry = new System.Windows.Forms.RadioButton();
             this.pbxCone = new System.Windows.Forms.PictureBox();
             this.pbxFlavor = new System.Windows.Forms.PictureBox();
@@ -40,10 +39,12 @@
             this.rbChocolate2 = new System.Windows.Forms.RadioButton();
             this.rbVanilla2 = new System.Windows.Forms.RadioButton();
             this.rbStrawberry2 = new System.Windows.Forms.RadioButton();
+            this.pbxFlavor2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCone)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxFlavor)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxFlavor2)).BeginInit();
             this.SuspendLayout();
             // 
             // rbChocolate
@@ -78,22 +79,12 @@
             // 
             this.lblFlavor.AutoSize = true;
             this.lblFlavor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFlavor.Location = new System.Drawing.Point(47, 277);
+            this.lblFlavor.Location = new System.Drawing.Point(98, 277);
             this.lblFlavor.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblFlavor.Name = "lblFlavor";
             this.lblFlavor.Size = new System.Drawing.Size(103, 24);
             this.lblFlavor.TabIndex = 2;
             this.lblFlavor.Text = "<lblFlavor>";
-            // 
-            // btnSubmit
-            // 
-            this.btnSubmit.Location = new System.Drawing.Point(193, 329);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(100, 40);
-            this.btnSubmit.TabIndex = 3;
-            this.btnSubmit.Text = "Submit";
-            this.btnSubmit.UseVisualStyleBackColor = true;
-            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // rbStrawberry
             // 
@@ -112,7 +103,7 @@
             // pbxCone
             // 
             this.pbxCone.Image = global::IceCreamShoppe.Properties.Resources.cone;
-            this.pbxCone.Location = new System.Drawing.Point(323, 154);
+            this.pbxCone.Location = new System.Drawing.Point(475, 280);
             this.pbxCone.Name = "pbxCone";
             this.pbxCone.Size = new System.Drawing.Size(100, 204);
             this.pbxCone.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -121,8 +112,9 @@
             // 
             // pbxFlavor
             // 
+            this.pbxFlavor.BackColor = System.Drawing.Color.Transparent;
             this.pbxFlavor.Image = global::IceCreamShoppe.Properties.Resources.chocolate;
-            this.pbxFlavor.Location = new System.Drawing.Point(298, 17);
+            this.pbxFlavor.Location = new System.Drawing.Point(450, 145);
             this.pbxFlavor.Name = "pbxFlavor";
             this.pbxFlavor.Size = new System.Drawing.Size(150, 150);
             this.pbxFlavor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -134,7 +126,8 @@
             this.groupBox1.Controls.Add(this.rbChocolate);
             this.groupBox1.Controls.Add(this.rbVanilla);
             this.groupBox1.Controls.Add(this.rbStrawberry);
-            this.groupBox1.Location = new System.Drawing.Point(13, 100);
+            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupBox1.Location = new System.Drawing.Point(13, 24);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 150);
             this.groupBox1.TabIndex = 11;
@@ -146,7 +139,7 @@
             this.groupBox2.Controls.Add(this.rbChocolate2);
             this.groupBox2.Controls.Add(this.rbVanilla2);
             this.groupBox2.Controls.Add(this.rbStrawberry2);
-            this.groupBox2.Location = new System.Drawing.Point(254, 105);
+            this.groupBox2.Location = new System.Drawing.Point(241, 29);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 150);
             this.groupBox2.TabIndex = 12;
@@ -195,16 +188,28 @@
             this.rbStrawberry2.UseVisualStyleBackColor = true;
             this.rbStrawberry2.CheckedChanged += new System.EventHandler(this.rbStrawberry2_CheckedChanged);
             // 
+            // pbxFlavor2
+            // 
+            this.pbxFlavor2.BackColor = System.Drawing.Color.Transparent;
+            this.pbxFlavor2.Image = global::IceCreamShoppe.Properties.Resources.chocolate;
+            this.pbxFlavor2.Location = new System.Drawing.Point(449, -4);
+            this.pbxFlavor2.Name = "pbxFlavor2";
+            this.pbxFlavor2.Size = new System.Drawing.Size(150, 150);
+            this.pbxFlavor2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxFlavor2.TabIndex = 14;
+            this.pbxFlavor2.TabStop = false;
+            this.pbxFlavor2.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(521, 484);
+            this.ClientSize = new System.Drawing.Size(684, 484);
             this.Controls.Add(this.lblFlavor);
+            this.Controls.Add(this.pbxFlavor2);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pbxCone);
-            this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.pbxFlavor);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6);
@@ -217,6 +222,7 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxFlavor2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,7 +233,6 @@
         private System.Windows.Forms.RadioButton rbChocolate;
         private System.Windows.Forms.RadioButton rbVanilla;
         private System.Windows.Forms.Label lblFlavor;
-        private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.RadioButton rbStrawberry;
         private System.Windows.Forms.PictureBox pbxCone;
         private System.Windows.Forms.PictureBox pbxFlavor;
@@ -236,6 +241,7 @@
         private System.Windows.Forms.RadioButton rbChocolate2;
         private System.Windows.Forms.RadioButton rbVanilla2;
         private System.Windows.Forms.RadioButton rbStrawberry2;
+        private System.Windows.Forms.PictureBox pbxFlavor2;
 
     }
 }
